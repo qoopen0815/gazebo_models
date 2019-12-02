@@ -1,0 +1,23 @@
+<sdf version='1.4'>
+  <!-- Draw Model -->
+  <model name='hanging_rack'>
+    <static>true</static>
+    <link name="hanging_rack">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://hanging_rack/meshes/STL/hanging_rack.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://hanging_rack/meshes/DAE/hanging_rack.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

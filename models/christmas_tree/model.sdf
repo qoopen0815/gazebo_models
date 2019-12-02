@@ -1,0 +1,23 @@
+<sdf version='1.5'>
+  <!-- Draw Model -->
+  <model name="christmas_tree">
+    <static>false</static>
+    <link name="christmas_tree">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://christmas_tree/meshes/STL/christmas_tree.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://christmas_tree/meshes/DAE/christmas_tree.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

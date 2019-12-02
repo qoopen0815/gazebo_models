@@ -1,0 +1,23 @@
+<sdf version='1.5'>
+  <!-- Draw Model -->
+  <model name="fense">
+    <static>true</static>
+    <link name="fense">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://fense/meshes/STL/fense.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://fense/meshes/DAE/fense.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

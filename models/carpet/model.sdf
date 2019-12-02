@@ -1,0 +1,15 @@
+<sdf version='1.5'>
+  <!-- Draw Model -->
+  <model name="carpet">
+    <static>true</static>
+    <link name="carpet">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://carpet/meshes/DAE/carpet.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,23 @@
+<sdf version='1.5'>
+  <!-- Draw Model -->
+  <model name="indoor_plant">
+    <static>true</static>
+    <link name="indoor_plant">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://indoor_plant/meshes/STL/indoor_plant.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://indoor_plant/meshes/DAE/indoor_plant.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

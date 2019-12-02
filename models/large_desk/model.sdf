@@ -1,0 +1,23 @@
+<sdf version='1.5'>
+  <!-- Draw Model -->
+  <model name="large_desk">
+    <static>true</static>
+    <link name="large_desk">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://large_desk/meshes/STL/large_desk.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://large_desk/meshes/DAE/large_desk.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

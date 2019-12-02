@@ -1,0 +1,23 @@
+<sdf version='1.4'>
+  <!-- Draw Model -->
+  <model name='book_shelf'>
+    <static>false</static>
+    <link name="book_shelf">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://book_shelf/meshes/STL/book_shelf.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://book_shelf/meshes/DAE/book_shelf.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

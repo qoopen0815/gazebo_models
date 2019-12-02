@@ -1,0 +1,23 @@
+<sdf version='1.4'>
+  <!-- Draw Model -->
+  <model name='desk'>
+    <static>true</static>
+    <link name="desk">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://desk/meshes/STL/desk.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://desk/meshes/DAE/desk.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

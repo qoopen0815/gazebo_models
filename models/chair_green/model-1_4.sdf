@@ -1,0 +1,23 @@
+<sdf version='1.4'>
+  <!-- Draw Model -->
+  <model name='chair_green'>
+    <static>false</static>
+    <link name="chair_green">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://chair/meshes/STL/chair.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://chair/meshes/DAE/green_chair.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
