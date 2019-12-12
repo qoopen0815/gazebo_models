@@ -1,6 +1,5 @@
 # gazebo_models
 These models are available in the gazebo world.  
-Register the file path to "models" in the environment variable before using.
 
 ## usage
 Register the file path to "models" in the environment variable before using.
