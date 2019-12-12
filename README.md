@@ -3,8 +3,9 @@ These models are available in the gazebo world.
 Register the file path to "models" in the environment variable before using.
 
 ## usage
+Register the file path to "models" in the environment variable before using.
 
-- model PATH registration
+- PATH registration
 ```
 cd models
 export GAZEBO_MODEL_PATH=`pwd`:$GAZEBO_MODEL_PATH
