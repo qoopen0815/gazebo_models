@@ -11,6 +11,6 @@ export GAZEBO_MODEL_PATH=`pwd`:$GAZEBO_MODEL_PATH
 ```
 
 It's convenient if the model PATH are automatically added to your bash session every time a new shell is launched:
-```
-echo "export GAZEBO_MODEL_PATH="$GAZEBO_MODEL_PATH:/path/to/models"" >> ~/.bashrc
+```bash
+export GAZEBO_MODEL_PATH="/path/to/models_directory:$GAZEBO_MODEL_PATH"
 ```
