@@ -1,0 +1,23 @@
+<sdf version='1.5'>
+  <!-- Draw Model -->
+  <model name="workbench">
+    <static>true</static>
+    <link name="workbench">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://workbench/meshes/STL/workbench.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://workbench/meshes/DAE/workbench.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
