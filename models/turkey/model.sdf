@@ -1,0 +1,23 @@
+<sdf version='1.5'>
+  <!-- Draw Model -->
+  <model name="turkey">
+    <static>true</static>
+    <link name="turkey">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://turkey/meshes/STL/turkey.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://turkey/meshes/DAE/turkey.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
