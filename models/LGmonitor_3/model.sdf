@@ -1,0 +1,23 @@
+<sdf version='1.5'>
+  <!-- Draw Model -->
+  <model name="LGmonitor_3">
+    <static>true</static>
+    <link name="LGmonitor_3">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://LGmonitor_3/meshes/STL/LGmonitor.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://LGmonitor_3/meshes/DAE/LGmonitor.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
