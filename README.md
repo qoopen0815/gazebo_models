@@ -1,6 +1,8 @@
 # gazebo_models
 These models are available in the gazebo world.  
 
+![snap](https://github.com/calm0815/gazebo_models/blob/master/snapshot.png)
+
 ## usage
 Register the file path to "models" in the environment variable before using.
 
